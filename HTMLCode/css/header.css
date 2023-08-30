@@ -1,0 +1,217 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: -2px; left: 1px;right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(165, 165, 165);
+    padding-top: 15px;
+    height: 50px;
+    padding-bottom: 5px;
+    z-index: 200;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hamburger-logo{
+    height: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.youtube-logo{
+    height: 20px;
+    width: 90px;
+}
+
+.middle-header{
+    display: flex;
+    justify-content: center;
+    width:500px;
+    max-width: 900px;
+    margin-left: 70px;
+    margin-right: 35px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.input-1{
+    flex: 1;
+    font-size: 20px;
+    height: 41px;
+    width: 0px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    border-bottom: 1px solid rgb(228, 225, 225);    
+    margin-top: 2px;
+    padding-left: 15px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+}
+
+.input-1::placeholder{
+    font-family: Poppins, Roboto ;
+    font-size: 18px;
+}
+
+.button-icon{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(172, 171, 171);
+    height: 45px;
+    width: 80px;
+    margin-top: 2px;
+    margin-left: -1px;
+    margin-right: 2px;
+    background-color: rgb(238, 236, 236);
+    cursor: pointer;
+    position: relative;
+}
+
+.Search-icon{
+    height: 25px;
+    margin-top:5px;
+    margin-left: 2px;
+}
+
+.button-icon .tooltip, .button-voice .tooltip-voice{
+    position: absolute;
+    left: 4px;
+    bottom: -65px;
+    background-color: gray;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 11px;
+    font-family: Arial;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.button-icon:hover .tooltip,
+.button-voice:hover .tooltip-voice{
+    opacity: 1;
+}
+
+.button-voice{
+    height: 41px;
+    width: 41px;
+    border-radius:30px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.button-voice .tooltip-voice{
+    width: 141px;
+    margin-left: -40px;
+}
+
+.voice-icon{
+    height: 24px;
+    cursor: pointer;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.tooltip-upload .create , .tooltip-ytb-app .ytb-app{
+    position: absolute;
+    left: -15px;
+    bottom: -65px;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-family: Arial;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.tooltip-upload:hover .create,
+.tooltip-ytb-app:hover .ytb-app
+    {
+    opacity: 1;
+}
+
+
+.upload-right{
+    margin-top: 10px;
+    height: 30px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.tooltip-ytb-app .ytb-app{
+    left: 35px;
+}
+
+.app-right{
+    margin-top: 10px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.notification-icon-container{
+    position: relative;
+}
+
+.notification-right{
+    width: 26px;
+    cursor: pointer;
+}
+
+.notification-counts{
+    position: absolute;
+    background-color: rgb(197, 4, 4);
+    color: white;
+    top: -3px;
+    right: -5px;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:6px;
+    padding-right: 6px;
+    border-radius: 10px;
+}
+
+.logo-right{
+    margin-top: -5px;
+    width: 35px;
+    height:35px;
+    object-fit: cover;
+    border-radius: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,500;1,300;1,400&display=swap');
+        
+.p{
+    font-family:'Poppins','Roboto', sans-serif;
+}
+
+body{
+    padding-top:61px;
+    padding-left: 85px;
+}

@@ -1,0 +1,148 @@
+.TOP-GRID{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    background-color: rgb(245, 245, 245);
+    margin-left: -1px;
+}
+
+.logo-img{
+    margin-bottom: 5px;
+    position: relative;
+}
+    
+.img-1{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.titile-channel-grip{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+.profile-picture{
+    width: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-left: -2px;
+    cursor: pointer;
+}
+
+
+.title-1{
+    font-family: Arial;
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.title-2{
+    margin-left: 20px;
+    margin-top: 12px;
+    color:rgb(80, 76, 76);
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.title-3{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(80, 76, 76);
+    font-size: 15px;
+}
+
+
+.video-time{
+    bottom: 7px;
+    right: 4px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+
+.video-time-1{
+    position: absolute;
+    background-color: rgba(0,0,0.9);
+    color: white;
+    bottom: 7px;
+    right:4px;
+    padding:2px 4px;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.video-time-2{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    padding-top: 2px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-weight: 500x;
+    font-size: 12px;
+}
+
+.video-time-3{
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.video-time-4{
+    position: absolute;
+    bottom: 7px;
+    right: 3px;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.video-time-5{
+    position:absolute;
+    bottom: 7px;
+    right: 4px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+}
