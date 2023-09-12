@@ -1,0 +1,199 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@400;500;600&display=swap');
+ 
+/* 
+    *{
+        background-color: gray;
+    } */
+/* variable  css */
+
+:root{
+    --header-height: 3.5rem;
+
+    /* color */
+    /* color mode  HSL (hue, saturiaion , lightness */
+    --first-color: hsl(140,40%,48%);
+    --first-color-alt: hsl(140,40%,44%);
+    --title-color: hsl(140,4%,40%);
+    --text-color: hsl(140,4%,64%);
+    --text-color-light: hsl(140,4%,64%);
+    --white-color: hsl(0,0%,100%);
+    --body-color: hsl(0,0%,100%);
+    --container-color: hsl(0,0%,95%);
+    --shadow-img: drop-shadow(0.8px, 12px hsla (0,0%,0%, .2));
+    --fitter-img:invert(1);
+
+    /* font and typography */
+
+    /* .5rem - 8px | 1rem = 16px */
+    --body-font:"Poppins", sans-serif;
+    --secontion-font:"Cherry Bomb One", cursive;
+    --biggets-font-size:3rem;
+    --big-font-size:2rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1rem;
+    --normal-font-size:  .938rem;
+    --small-font-size: .813rem;
+
+
+    /* font weight */
+
+    --font-regular:400;
+    --font-media:500;
+    --font-semi-bold:600;
+
+    /* z index */
+    --z-tooltip:10;
+    --z-fixed:100;  
+}
+
+/* repoinsive type grophary */
+
+@media screen and (min-width:1150px) {
+    :root{
+        --biggest-font-size:5.5rem;
+        --big-font-size:3rem;
+        --h1-font-size:2.25rem;
+        --h2-font-size:1.5rem;
+        --h1-font-size:1rem;
+        --normal-font-size:1rem;
+        --small-font-size:.875rem;
+    }
+}
+
+                /* base */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth ;
+}
+
+body,input,button{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: background-color .4s;
+}
+
+
+input, button{
+    border: none;
+    outline: none;
+}
+
+h1, h2, h3, h4{
+    color: var(--title-color);
+    font-weight: var(--font-media);
+    line-height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+            /* theme */
+.nav__buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.change-theme{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    cursor: pointer;
+    margin-top: -4rem;
+    margin-right: .1rem;
+}
+
+/* variables dark theme */
+body.dark-theme{
+    --first-color: hsl(140,30%,45%);
+    --first-color-alt: hsl(140,30%,40%);
+    --title-color: hsl(140,4%,90%);
+    --text-color: hsl(0, 0%, 100%);
+    --body-color: hsl(0,0%,10%);
+    --container-color: hsl(0,0%,14%);
+    --shadow-img: drop-shadow(0.8px, 12px hsla (0,0%,0%, 6));
+    --fitter-img: initial;
+}
+
+     /* color changes in some parts of
+      the website, in the dark theme*/
+
+
+.dark-theme .scrollup{
+    background-color: var(--container-color);
+}
+
+.dark-theme::-webkit-scrollbar{
+    background-color: hsl(0, 0%, 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+    background-color: hsl(0, 0%, 30%);
+    border-radius: 2rem;
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(0, 0%, 40% );
+}
+
+            /* resable css classes */
+
+.container{
+    max-width: 1120px;
+    margin-inline:1.5rem;
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section{
+    padding-block: 5rem 1rem;
+}
+
+.section-title{
+    font-size: var(--big-font-size);
+    font-family: var(--secontion-font);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.main{
+    overflow:hidden;
+}
+
+/* header nav */
+
+
+
+
+
+
+/* /*  */
+
+    /* for medium devices */
+
+/* for large devices */
